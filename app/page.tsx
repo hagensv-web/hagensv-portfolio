@@ -15,7 +15,7 @@ export default function Home() {
         mobileFirst="right"
         leftContent={
           <div>
-            <img src="/keyboard-768x768.jpg" alt="Half a keyboard with a coffee mug" loading="lazy" />
+            <img src="/keyboard.jpg" alt="Half a keyboard with a coffee mug" fetchPriority="high" loading="eager" />
             <p>Photo by <StyledLink href="https://unsplash.com/@nublson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nubelson Fernandes</StyledLink> on <StyledLink href="https://unsplash.com/photos/black-and-white-ceramic-mug-on-black-table--Xqckh_XVU4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</StyledLink></p>
           </div>
         }
@@ -38,7 +38,7 @@ export default function Home() {
         }
         rightContent={
           <div>
-            <img src="/application-768x513.jpg" alt="a person filling out an application" loading="lazy"/>
+            <img src="/application.jpg" alt="a person filling out an application" loading="lazy"/>
           </div>
         } />
 
