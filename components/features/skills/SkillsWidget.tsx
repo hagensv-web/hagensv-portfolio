@@ -17,7 +17,7 @@ export default function SkillsWidget(){
     }
 
     return (
-        <div className="flex flex-col jusify-center">
+        <div className="">
             <div className="grid grid-cols-3 gap-10">
                 <div className="col-span-3 md:col-span-1">
                     <h3>Languages:</h3>
@@ -38,7 +38,7 @@ export default function SkillsWidget(){
                     )) }
                 </div>
             </div>
-            <button onClick={toggleFullList} className="my-5">
+            <button onClick={toggleFullList} className="block cursor-pointer rounded-xl hover:bg-gray-200 dark:hover:bg-gray-600 my-5 m-auto px-4 py-2">
                 { showFullList ? "Show Less" : "Show More" }
             </button>
         </div>
