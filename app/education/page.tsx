@@ -1,5 +1,11 @@
 import EducationSummary from "@/components/features/education/EducationSummary";
 import { education } from "@/data/education";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Eduction",
+  description: "My education has shaped me into who I am today, take a look at my academic achievements and the courses I took in school."
+}
 
 export default function Education(){
     return (

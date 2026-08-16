@@ -2,7 +2,12 @@ import StyledLink from "@/components/core/StyledLink";
 import ImageLeftContentRight from "@/components/core/ImageLeftContentRight";
 import ImageRightContentLeft from "@/components/core/ImageRightContentLeft";
 import SkillsWidget from "@/components/features/skills/SkillsWidget";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Hello World!",
+  description: "Learn about me and the things I enjoy doing"
+}
 
 export default function Home() {
   return (
