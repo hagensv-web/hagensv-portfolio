@@ -97,7 +97,6 @@ export const projects: Project[] = [
         accomplishments: [
             "Learned git/github for collaboration",
             "Learned how to use Java Swing libraries to create a simple game",
-            
         ]
     }
 ]

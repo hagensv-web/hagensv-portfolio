@@ -46,6 +46,7 @@ export const technologies: Skill[] = [
 ]
 
 export const otherSkills: Skill[] = [
+    {name: "Learning", proficiency: 0.90},
     {name: "Problem Solving", proficiency: 0.80},
     {name: "Teamwork", proficiency: 0.75},
     {name: "Agile/Scrum", proficiency: 0.70},
