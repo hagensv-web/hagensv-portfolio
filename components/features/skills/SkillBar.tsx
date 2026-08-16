@@ -11,7 +11,7 @@ export default function SkillBar({ skill }: Props ){
 
     return <div>
         <p>{skill.name}</p>
-        <div className="bg-zinc-700 rounded-xl text-right text-sm">
+        <div className="bg-zinc-400 dark:bg-zinc-700 rounded-xl text-right text-sm">
             <div className={`bg-green-700 dark:bg-green-900 text-white rounded-xl pr-4`} style={{ width: prof }}>
                 <span>{ getProficiencyLabel(skill.proficiency) }</span>
             </div>
