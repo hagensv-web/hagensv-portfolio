@@ -17,7 +17,7 @@ export default function SkillsWidget(){
     }
 
     return (
-        <div className="">
+        <div>
             <div className="grid grid-cols-3 gap-10">
                 <div className="col-span-3 md:col-span-1">
                     <h3>Languages:</h3>
@@ -25,13 +25,13 @@ export default function SkillsWidget(){
                         <SkillBar key={skill.name} skill={skill} />
                     )) }
                 </div>
-                <div>
+                <div className="col-span-3 md:col-span-1">
                     <h3>Technologies:</h3>
                     { topTechnologies.map( skill => (
                         <SkillBar key={skill.name} skill={skill} />
                     )) }
                 </div>
-                <div>
+                <div className="col-span-3 md:col-span-1">
                     <h3>Other Skills:</h3>
                     { topOtherSkills.map( skill => (
                         <SkillBar key={skill.name} skill={skill} />
