@@ -1,3 +1,4 @@
+import { getAllPosts } from "@/logic/blog-api";
 import { MetadataRoute } from "next"
 
 interface WebPage {
@@ -29,7 +30,15 @@ const BASE_URL = "https://hagensv.dev"
 const SITEMAP_URL_LIMIT = 50_000;
 
 export async function getAllPages() {
-    return staticPages
+    const blogPosts: WebPage[] = (await getAllPosts())
+        .map( post => (
+            { 
+                path: post.url, 
+                lastEdited: new Date(post.updatedDate ?? post.publishedDate) 
+            }
+        ))
+    
+    return blogPosts.concat(staticPages)
 }
 
 export async function generateSitemaps() {
