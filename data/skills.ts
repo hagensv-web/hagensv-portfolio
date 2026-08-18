@@ -1,10 +1,10 @@
 import { Skill } from "./resume"
 
 export const getProficiencyLabel = (proficiency: number) => {
-    if (proficiency <= 0.35){
+    if (proficiency <= 0.40){
         return "Novice"
     }
-    if (proficiency <= 0.55){
+    if (proficiency <= 0.75){
         return "Proficient"
     }
     if (proficiency <= 0.90){
