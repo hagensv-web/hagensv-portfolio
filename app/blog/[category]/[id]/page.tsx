@@ -14,7 +14,7 @@ export async function generateStaticParams(){
   }))
 }
 
-export async function generateMetaData(
+export async function generateMetadata(
     { params }: Props,
     parent: ResolvingMetadata
 ): Promise<Metadata> {
