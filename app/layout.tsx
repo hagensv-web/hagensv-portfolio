@@ -24,7 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
       <Header />
 
-      <main className="pt-4 px-10 md:px-[10%] mb-10">
+      <main className="pt-4 px-5 md:px-[10%] mb-10">
         {children}
       </main>
 
