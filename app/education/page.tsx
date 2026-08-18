@@ -3,7 +3,7 @@ import { education } from "@/data/education";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Eduction",
+  title: "Education",
   description: "My education has shaped me into who I am today, take a look at my academic achievements and the courses I took in school."
 }
 
