@@ -50,7 +50,7 @@ export async function getAllPostsByCategory(category: string): Promise<BlogPostD
         title: data.title,
         category: category,
         description: data.description,
-        publishedDate: data.publishedDate,
+        publishedDate: data.publicationDate,
         updatedDate: data.updatedDate,
         url: `/blog/${category}/${id}`
       };
@@ -76,7 +76,7 @@ export async function getPostById(category: string, id: string): Promise<BlogPos
     title: data.title,
     category: category,
     description: data.description,
-    publishedDate: data.publishedDate,
+    publishedDate: data.publicationDate,
     updatedDate: data.updatedDate,
     url: `/blog/${category}/${id}`,
     html: html.toString(),
