@@ -10,7 +10,7 @@ export default function EducationSummary({ education }: Props){
             <h2>{ education.school }</h2>
             <p className="text-sm">{ education.startDate.toLocaleDateString('default', { month: 'long', year: 'numeric' }) } - { education.endDate?.toLocaleDateString('default', { month: 'long', year: 'numeric' }) ?? "Present" }</p>
             <p>Major: { education.major }</p>
-            <p><span className="font-bold text-yellow-700 dark:text-yellow-500">Minors:</span> { education.minors.join(", ")}</p>
+            <p>Minors: { education.minors.join(", ")}</p>
             <p>GPA: {education.majorGpa} in major, {education.overallGpa} overall</p>
             <p>Relevant Courses:</p>
             <ul>
