@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     template: "%s | HagenSV"
   },
   description: "Samuel Hagen's portfolio",
+  other: {
+    "msvalidate.01": "C4967E4A69A01933077A867E1F7F5F50"
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
