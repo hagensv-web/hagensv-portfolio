@@ -1,3 +1,3 @@
-:HL["/_next/static/chunks/1_65q-ajhyq9i.css","style"]
+:HL["/_next/static/chunks/3wpztda20pa96.css","style"]
 :HL["/keyboard.jpg","image",{"fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"cRhiof8tv4O5aUaUaS-p2"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"knyMQGZbnvHjeczsnWqal"}
