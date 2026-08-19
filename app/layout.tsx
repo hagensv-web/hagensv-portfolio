@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/core/Header";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: {
@@ -19,6 +20,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`h-full antialiased`}
     >
+      <head>
+        <GoogleAnalytics gaId="G-SXBRK0EEX4" />
+      </head>
 
       <body className="min-h-full flex flex-col text-black dark:bg-mist-800 dark:text-white">
 
