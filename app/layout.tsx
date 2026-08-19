@@ -20,12 +20,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`h-full antialiased`}
     >
-      <head>
-        <GoogleAnalytics gaId="G-SXBRK0EEX4" />
-      </head>
-
       <body className="min-h-full flex flex-col text-black dark:bg-mist-800 dark:text-white">
-
+      <GoogleAnalytics gaId="G-SXBRK0EEX4" />
       <Header />
 
       <main className="pt-4 px-5 md:px-[10%] mb-10">
