@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "cp CNAME out/CNAME",
+    "postbuild": "cp CNAME out/CNAME && cp robots.txt out/robots.txt",
     "start": "next start",
     "lint": "eslint"
   },
