@@ -8,10 +8,9 @@ export const experience: WorkExperience[] = [
         endDate: new Date("8-21-2026"),
         workType: "Full-Time",
         accomplishments: [
-            "Brushed up knowledge of C# and .NET",
-            "Learned Angular development and best practices",
-            "Oversaw the development of a full stack application using C# .NET and Angular",
-            "Made visual improvements to three existing applications"
+            "Created a full stack application with C# .NET and Angular",
+            "Redesigned and improved UI components of an existing to improve usability and consistency",
+            "Resolved bugs across multiple existing applications to improve reliability and functionality"
         ],
     },
     {
@@ -33,10 +32,9 @@ export const experience: WorkExperience[] = [
         endDate: new Date("8-1-2025"),
         workType: "Full-Time",
         accomplishments: [
-            "Learned systems and procedures related to the job within a week.",
-            "Executed manual regression test sets to ensure proper app functionality for millions of users",
+            "Executed Spira test sets to ensure proper app functionality fo millions of users",
+            "Document irregularities between app behaviour and expected behavior in Jira",
             "Validated three new features worked as intended",
-            "Documented irregularities between app behavior and expected behavior on Jira"
         ]
     },
     {

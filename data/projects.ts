@@ -7,10 +7,10 @@ export const projects: Project[] = [
         group_size: 1,
         startDate: new Date("1-1-2026"),
         accomplishments: [
-            "Published a working website on a custom domain",
-            "Utilized CI/CD to automatically update the live site with new builds",
-            "Refactored code to improve lighthouse performance metrics",
-            "Integrated Google Analytics to gather user interaction data"
+            "Designed, developed and deployed a browser-based game gneeration platform using Next.js and React",
+            "Deploied automated CI/CD pipeline using Github Actions",
+            "Improved lighthouse performance schore to a minimum of 90 of all categories",
+            "Developed resuable React components shared across application features"
         ]
     },
     {
@@ -20,10 +20,10 @@ export const projects: Project[] = [
         startDate: new Date("9-1-2025"),
         endDate: new Date("5-1-2026"),
         accomplishments: [
-            "Designed and developed a custom application for a non-profit organization",
-            "Integrated slack for application authorization",
-            "Created a mobile app, desktop admin portal, and backend API",
-            "Managed a linuz VM running the backend API"
+            "Gathered requirements from stakeholders and translated them into application features",
+            "Developed a full-stack web and mobile application used by a local non-profit organization of 12+ volunteers to support opperations",
+            "Developed web and mobile application features based on stakeholder feedback",
+            "Integrated Slack authentication to streamline volunteer access and account management"
         ]
     },
     {
@@ -33,11 +33,11 @@ export const projects: Project[] = [
         startDate: new Date(),
         endDate: new Date(),
         accomplishments: [
-            "Created a working android app using jetpack compose",
+            "Developed an Angroid app using Jetpack compose",
             "Integrated data from multiple API sources for movie info and streaming availability",
-            "Leveraged local caching to reduce API usage",
-            "Managed a local database to store user data",
-            "Processed user data to recommend streaming services"
+            "Reduced API requests through local caching",
+            "Managed a local database to store favorite modives, movies to watch, and user preferences",
+            "Processed streaming data and user data to recommend streaming service"
         ]
     },
     {
@@ -46,8 +46,10 @@ export const projects: Project[] = [
         group_size: 1,
         startDate: new Date("1-1-2024"),
         accomplishments: [
-            "Learned Next.js frontend development",
-            "Used github actions CI/CD to automatically publish new builds",
+            "Designed and developed a responsive portfolio website using Next.js and React",
+            "Implemented automated CI/CD with GitHub Actions to publish new builds",
+            "Designed reusable components and layouts to maintain a consistent site structure",
+            "Implemented responsive styling and accessibility features for desktop and mobile users"
         ]
     },
     {
@@ -57,11 +59,10 @@ export const projects: Project[] = [
         startDate: new Date("1-1-2025"),
         endDate: new Date("5-1-2025"),
         accomplishments: [
-            "Submitted team assignments on time",
-            "Created a github repository and configured branch rules",
-            "Used github for version control and collaboration",
-            "Created a responsive web app using react and typescript",
-            "Built a backend api using java and spring boot"
+            "Developed a responsive scheduling web application using React and TypeScript",
+            "Built a REST API using Java and Spring Boot",
+            "Established GitHub repository structure and branch protection rules for a four-person development team",
+            "Collaborated through GitHub pull requests and version control workflows"
         ]
     },
     {
@@ -71,9 +72,9 @@ export const projects: Project[] = [
         startDate: new Date("10-1-2024"),
         endDate: new Date("12-1-2024"),
         accomplishments: [
-            "Created a working native iOS App using Swift and SwiftUI",
-            "Stored app data in a remote database",
-            "Created a custom API to interface with the app",
+            "Created a working native iOS application using Swift and SwiftUI",
+            "Designed and implemented a custom API for communication between the application and backend",
+            "Integrated remote database storage for application data"
         ]
     },
     {
@@ -83,9 +84,9 @@ export const projects: Project[] = [
         startDate: new Date("8-1-2024"),
         endDate: new Date("12-1-2025"),
         accomplishments: [
-            "Taught myself Electron to create a cross-platform desktop app",
-            "Created a locally-hosted live multiplayer game with SocketIO and Express",
-            "Published game to gamejolt.com"
+            "Independently learned Electron to develop a cross-platform desktop application",
+            "Developed a locally hosted multiplayer game using Express and Socket.IO",
+            "Published the completed game to Game Jolt"
         ]
     },
     {
@@ -95,8 +96,8 @@ export const projects: Project[] = [
         startDate: new Date("3-1-2022"),
         endDate: new Date("5-1-2022"),
         accomplishments: [
-            "Learned git/github for collaboration",
-            "Learned how to use Java Swing libraries to create a simple game",
+            "Developed a Java desktop game using Java Swing",
+            "Collaborated with a two-person team using Git and Github",
         ]
     }
 ]
