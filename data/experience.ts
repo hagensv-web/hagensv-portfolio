@@ -9,7 +9,7 @@ export const experience: WorkExperience[] = [
         workType: "Full-Time",
         accomplishments: [
             "Created a full stack application with C# .NET and Angular",
-            "Redesigned and improved UI components of an existing to improve usability and consistency",
+            "Redesigned and improved UI components of an existing app to improve usability and consistency",
             "Resolved bugs across multiple existing applications to improve reliability and functionality"
         ],
     },
