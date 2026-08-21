@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import TwoColumnLayout from "@/components/core/TwoColumnLayout";
 
 export const metadata: Metadata = {
-  title: "Hello World!",
-  description: "Learn about me and the things I enjoy doing"
+  title: "Hello, World!",
+  description: "My name is Samuel Hagen, and I am a programming enthusiast. I love to create, push my skills, and learn new things. I love almost all things programming: front-end, back-end, mobile, web, you name it."
 }
 
 export default function Home() {
