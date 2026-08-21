@@ -22,6 +22,10 @@ const staticPages: WebPage[] = [
     {
         path: "/projects",
         lastEdited: new Date("8-16-2026")
+    },
+    {
+        path: "/resume",
+        lastEdited: new Date("8-21-2026")
     }
 ]
 
