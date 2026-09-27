@@ -53,13 +53,13 @@ export default function Home() {
         rightContent={
           <div>
             <h2>Do you need a website?</h2>
-            <p>I excel at making static websites and web apps that dont rely on a backend. If you need a website that fits this criteria, feel free to reach out, I would love to build it for you and help your dreams come true! Don't know your site requirements? Contact me anyway. I would be happy to help you work through it.</p>
+            <p>I excel at making static websites and web apps that don't rely on a backend. If you need a website that fits this criteria, feel free to reach out, I would love to build it for you and help your dreams come true! Don't know your site requirements? Contact me anyway. I would be happy to help you work through it.</p>
           </div>
         } />
 
       <div className="md:px-20">
         <h2>Projects</h2>
-        <p>When it comes to programming, and life in general, my two biggest motivators are learning and problem solving. This fact is clearest when lookig at my projects. Throughout my education, I had the incredible opportunity to work on many complex and interesting projects, both inside and outside of class. These projects utilitzed a wide variety of programming languages and tools as I expanded my skill set. Some projects are even targeted at solving practical problems for the average person, such as one of my personal favorites: Where's My Movie?</p>
+        <p>When it comes to programming, and life in general, my two biggest motivators are learning and problem solving. This fact is clearest when looking at my projects. Throughout my education, I had the incredible opportunity to work on many complex and interesting projects, both inside and outside of class. These projects utilitzed a wide variety of programming languages and tools as I expanded my skill set. Some projects are even targeted at solving practical problems for the average person, such as one of my personal favorites: Where's My Movie?</p>
       </div>
 
       <div>
