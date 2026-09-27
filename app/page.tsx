@@ -53,7 +53,7 @@ export default function Home() {
         rightContent={
           <div>
             <h2>Do you need a website?</h2>
-            <p>I excel at making static websites and web apps that dont rely on a backend. If you need a website that fits this criteria, feel free to reach out, I would love to build it for you and help your dreams come true! Don't know your site requirements? Contact me anyway. I would be happy to help you work through it.</p>
+            <p>I excel at making static websites and web apps that don't rely on a backend. If you need a website that fits this criteria, feel free to reach out, I would love to build it for you and help your dreams come true! Don't know your site requirements? Contact me anyway. I would be happy to help you work through it.</p>
           </div>
         } />
 
