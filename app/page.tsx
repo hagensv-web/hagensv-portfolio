@@ -59,7 +59,7 @@ export default function Home() {
 
       <div className="md:px-20">
         <h2>Projects</h2>
-        <p>When it comes to programming, and life in general, my two biggest motivators are learning and problem solving. This fact is clearest when lookig at my projects. Throughout my education, I had the incredible opportunity to work on many complex and interesting projects, both inside and outside of class. These projects utilitzed a wide variety of programming languages and tools as I expanded my skill set. Some projects are even targeted at solving practical problems for the average person, such as one of my personal favorites: Where's My Movie?</p>
+        <p>When it comes to programming, and life in general, my two biggest motivators are learning and problem solving. This fact is clearest when looking at my projects. Throughout my education, I had the incredible opportunity to work on many complex and interesting projects, both inside and outside of class. These projects utilitzed a wide variety of programming languages and tools as I expanded my skill set. Some projects are even targeted at solving practical problems for the average person, such as one of my personal favorites: Where's My Movie?</p>
       </div>
 
       <div>
